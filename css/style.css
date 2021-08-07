@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header stars form here */
+.login-button{
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+header{
+    width: 100%;
+    background: #2D25A0;
+}
+.top-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    
+}
+.top-area img{
+    height: 438px;
+    width: 556px;
+    left: 1299px;
+    top: 153px;
+}
+.title-area{
+    height: 230px;
+    width: 485px;
+    left: 156px;
+    top: 207px;
+    
+}
+.title-area h1{
+    font-size: 64px;
+    font-style: normal;
+    line-height: 80px;
+    color: #ffffff;
+}
+.link-button{
+    text-decoration: none;
+    background: #E02C6D;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+#arrow{
+    font-size: 15px;
+    padding: 10px;
+}
+/* Header ends form here */
+
+/* Players area stars form here */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    width: 330px;
+    
+}
+.player img{
+    width: 100%;
+    height: 256px;
+}
+.player h2{
+    font-size: 28px;
+    line-height: 40px;
+    margin: 16px 0;
+}
+.player p{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+}
+/* Players area ends here */
+
+/* highlights area stars form here */
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+.highlights img{
+    height: 427px;
+    width: 567px;   
+}
+.highlights-title{
+    height: 309px;
+    width: 469px;   
+}
+.highlights-title h1{
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+.highlights-title p{
+    font-size: 16px;
+    line-height: 28px; 
+}
+/* highlights area ends here */
+
+/* video area stars form here */
+.video-area{
+    margin-top: 50px;
+}
+#video-title{
+    font-size: 40px;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.video{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+    width: 330px; 
+}
+iframe{
+    width: 100%;
+    height: 256px;
+}
+.video h2{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 16px 0;
+}
+/* video area ends form here */
+
+/* gallery area stars form here */
+.gallery-area{
+    margin-top: 50px;
+}
+#gallery-title{
+    font-size: 40px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery-pics{
+    margin: 20px;
+    width: 330px;
+}
+.gallery-pics img{
+    width: 100%;
+    height: 100%;
+}
+.gallery h2{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 16px 0;
+}
+/* gallery area ends here */
+
+/* copyright area stars form here */
+.copyright-area{
+    text-align: center;  
+}
+.copyright-area img{
+    height: 110px;
+    width: 484px;
+    margin-top: 100px;
+}    
+.copyright-area p{
+    font-size: 18px;
+}
+.social-link{
+    list-style: none;
+}
+.social-link ul{
+    margin: 0;
+}
+.social-link ul li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 30px;
+}
+/* copyright area ends here */
+
+/* --------------------
+    Media Queries 
+----------------------*/
+
+/* Mobile Device */
+@media only screen and (max-width: 688px) {
+.top-area{
+    grid-template-columns: repeat(1, 1fr); 
+}
+.top-area img{
+    height: 259px;
+    width: 329px;
+    left: 344px;
+    top: 374px;
+}
+.title-area{
+    height: 138px;
+    width: 278px;
+    left: 16px;
+    top: 112px;
+    margin-bottom: 150px;   
+}
+.title-area h1{
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.players{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.highlights{
+    grid-template-columns: repeat(1, 1fr);
+}
+.highlights-title{
+    height: 299px;
+    width: 329px;
+    left: 15px;
+    top: 6754px;
+    margin-bottom: 160px;   
+}
+.highlights img{
+    height: 248px;
+    width: 328px;
+    left: 16px;
+    top: 7082px;  
+}
+.watch-button{
+
+}
+.videos{
+    grid-template-columns: repeat(1, 1fr);
+}
+.gallery{
+    grid-template-columns: repeat(1, 1fr);
+}
+.copyright-area img{
+    height: 100px;
+    width: 250px;
+    padding: 0 70px;  
+}    
+}
